@@ -1,8 +1,13 @@
+Content
+=======
+- [Headers: How to style headers](#headers)
+  - [ATX-style headings](#atx-style-headers)
+  - [Setext-style headings](#setext-style-headers)
 # Headers
 
 There are two way to create headings in Markdown using both ATX-style (`#`) and Setext-style (`=` and `-`) syntax, along with examples and explanations.
 
-### **ATX-style headings using** `#`
+### ATX-style Headers
 
 ATX-style headings use one or more `#` symbols at the beginning of a line.
 The number of `#` symbols determines the heading level.
@@ -32,29 +37,24 @@ Syntax
 - ATX-style headings support six levels.
 - A space after # is required.
 
-### **Setext-style headings using** `=` and `-`
-
-Setext-style headings are written by placing underline characters on the
-line below the heading text.
+### Setext-style Headers
+- Setext-style headings are written by placing underline characters on the
+line below the heading text. 
+- `=` and `-`
 
 ```
 Syntax
 
-Alt- Heading 7
+Heading 7
 ==============
 
-Alt- Heading 8
+Heading 8
 --------------
-
-Alt- Heading 9
-==============
 ```
-Alt- Heading 7
+Heading 7
 ===
-Alt- Heading 8
+Heading 8
 ---
-Alt- Heading 9
-===
 **Explanation**
   - `=`underlines create a level-1 heading (same as #).
   - underlines create a level-2 heading (same as ##).
