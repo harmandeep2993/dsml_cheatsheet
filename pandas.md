@@ -4,13 +4,13 @@ PANDAS
       - [Groupby Aggregation](#1-groupby-aggregation)
       - [Pivot Tables](#2-pivot-tables)
 
-### Data Aggregation
+## Data Aggregation
 Data aggregation in Pandas is used to summarize data. The most common aggregation techniques are:
   - Groupby Aggregation
   - Pivot tables
   - Crosstab
 
-#### 1. Groupby Aggregation
+### 1. Groupby Aggregation
 The `groupby` method is used to split data into groups based on one or more categories and then apply aggregation functions.
 
 ***Basic Syntax:***
@@ -49,9 +49,9 @@ df[["EducationField", "HourlyRate", "Department", "Age"]].groupby(by=["Departmen
 "Age":"mean"})
 ```
 
-For more details, refer to the official Pandas [documentation](#https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html)
+For more details, refer to the official Pandas documentation [here](#https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html).
 
-#### 2. Pivot Tables
+### 2. Pivot Tables
 The pivot_table() function in Pandas is used to summarize data in a spreadsheet-like format.
 
 ***Key Parameters***
@@ -100,4 +100,4 @@ df.pivot_table (
 - Multi-dimensional aggregation
 - Comparing multiple metrics across categories
 
-For more details, refer to the official Pandas [documentation](#https://pandas.pydata.org/docs/reference/api/pandas.pivot_table.html)
+For more details, refer to the official Pandas documentation [here](https://pandas.pydata.org/docs/reference/api/pandas.pivot_table.html).
