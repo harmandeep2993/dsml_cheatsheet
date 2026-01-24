@@ -1,6 +1,6 @@
-
-# Pandas Cheat Sheet
-
+Pandas Cheat Sheet
+===
+## Content
 - [Pandas Cheat Sheet](#pandas-cheat-sheet)
   - [Imports](#imports)
   - [Creating DataFrames](#creating-dataframes)
@@ -15,11 +15,23 @@
   - [Statistics](#statistics)
   - [I/O](#io)
 
-## Imports
-```python
-import pandas as pd
-import numpy as np
+### Imports Pandas
+If the pandas library is already installed, import it directly:
+
 ```
+Syntax:
+import pandas as pd
+```
+If pandas is not installed, install it first using `pip`.
+
+```
+Syntax:
+!pip install pandas   # Use ! to run shell commands in notebooks
+```
+```
+In Terminal / Command Prompt:
+```
+pip install pandas
 
 ## Creating DataFrames
 
